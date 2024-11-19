@@ -1,0 +1,51 @@
+header img {
+  height: 10%;
+}
+h1 {
+  padding-left: 15%;
+}
+p {
+  padding-left: 15%;
+  font-family: Arial;
+  color: black;
+  line-height: 1.5em;
+}
+p::first-letter {
+  color: blue;
+  font-size: 5em;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  margin: 0em;
+  width: 100%;
+  padding: 0em;
+  background-color: #666;
+}
+.links li {
+  margin-inline: 4em;
+  padding: 1em;
+  background: #666;
+  text-align: center;
+  font-size: 0.4vw;
+}
+.links li:hover {
+  align: left;
+  background: #666;
+  opacity: 0.8;
+  color: white;
+}
+a {
+  text-decoration: none;
+  font-size: 5em;
+}
+footer img {
+  width: 100%;
+}
+div img {
+  width: 100%;
+}
